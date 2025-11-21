@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Overflow Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Overflow Testing Box</h2>
+
+    <div class="box visible-box">
+        <p>This is a long text used to check the overflow visible property. The text will keep going even 
+        if it does not fit inside the fixed box. It will continue outside the border and will not be cut or 
+        hidden. This helps to see how the content behaves when there is no control over overflowing text. </p>
+    </div>
+
+    <div class="box hidden-box">
+        <p>This is a long text used to check the overflow hidden property. Any extra text that does not fit 
+        inside the box will simply be hidden. You will not see scrollbars and the hidden part cannot be viewed. This is a long text used to check the overflow auto property. Scrollbars will appear only if the 
+        content is bigger than the box. If the content fits, no scrollbars are shown. This is a long text used to check the overflow auto property. Scrollbars will appear only if the 
+        content is bigger than the box. If the content fits, no scrollbars are shown.</p>
+    </div>
+
+    <div class="box scroll-box">
+        <p>This is a long text used to check the overflow scroll property. When text overflows, scrollbars 
+        will always appear, even if scrolling is not needed. This allows the user to scroll through hidden text.
+        This is a long text used to check the overflow scroll property. When text overflows, scrollbars 
+        will always appear, even if scrolling is not needed. This allows the user to scroll through hidden text.</p>
+    </div>
+
+    <div class="box auto-box">
+        <p>This is a long text used to check the overflow auto property. Scrollbars will appear only if the 
+        content is bigger than the box. If the content fits, no scrollbars are shown. This is a long text used to check the overflow auto property. Scrollbars will appear only if the 
+        content is bigger than the box. If the content fits, no scrollbars are shown. This is a long text used to check the overflow auto property. Scrollbars will appear only if the 
+        content is bigger than the box. If the content fits, no scrollbars are shown. This is a long text used to check the overflow auto property. Scrollbars will appear only if the 
+        content is bigger than the box. If the content fits, no scrollbars are shown.</p>
+    </div>
+
+</body>
+</html>

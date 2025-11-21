@@ -1,0 +1,27 @@
+nav {
+    background-color: #221a31;
+    padding: 11px 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    color: rgb(212, 168, 168);
+    margin: 0 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #1b1919;
+    color: #a32aa3;
+    border-radius: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}

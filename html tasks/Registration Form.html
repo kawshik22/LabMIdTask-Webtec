@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Admission Form</title>
+</head>
+<body>
+
+    <h1>Online Admission Form</h1>
+    <form action="action_page.php" method="POST">
+
+        <!--Personal Info-->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <div>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Enter first name" required maxlength="30">
+            </div>
+
+            <div>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Enter last name" required maxlength="30">
+            </div>
+
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="enter email" required>
+            </div>
+
+            <div>
+                <label>Date of Birth:</label>
+                <input type="date" name="dob" required>
+            </div>
+
+            <div>
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="Male" required> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <input type="radio" name="gender" value="Other"> Other
+            </div>
+        </fieldset>
+
+        <br>
+
+        <!--Academic Info-->
+        <fieldset>
+            <legend>Academic Information</legend>
+
+            <div>
+                <label for="ssc">SSC GPA:</label>
+                <input type="text" id="ssc" name="ssc" maxlength="4" required>
+            </div>
+
+            <div>
+                <label for="hsc">HSC GPA:</label>
+                <input type="text" id="hsc" name="hsc" maxlength="4" required>
+            </div>
+
+            <div>
+                <label for="department">Preferred Department:</label>
+                <select id="department" name="department" required>
+                    <option value="">Select a department</option>
+                    <option value="CSE">Computer Science & Engineering</option>
+                    <option value="EEE">Electrical & Electronic Engineering</option>
+                    <option value="BBA">Bachelor of Business Administration</option>
+                    <option value="ENG">English</option>
+                    <option value="LAW">Law</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Interests:</label>
+                <input type="checkbox" name="interest" value="Programming"> Programming
+                <input type="checkbox" name="interest" value="Sports"> Sports
+                <input type="checkbox" name="interest" value="Club"> Club
+                <input type="checkbox" name="interest" value="Research"> Research
+            </div>
+
+            <div>
+                <label for="documents">Upload Documents:</label>
+                <input type="file" id="documents" name="documents" required>
+            </div>
+        </fieldset>
+
+        <br>
+
+        <!--Buttons-->
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+
+        
+
+
+    </form>
+    <button><a href="Friend.html">Click and switch second page</a></button>
+    <!--to shift 2nd page-->
+
+    <footer style="background-color: #1a1a1a; color: #fff; text-align:center; padding:10px ;">
+        © 2025 Kawshik Karmoker
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background: rgb(8, 136, 179);
+    padding: 10px;
+    border-bottom: 2px solid #be2424;
+}
+
+.header a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    margin-top: 15px;
+    padding: 15px;
+}

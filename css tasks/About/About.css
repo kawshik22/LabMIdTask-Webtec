@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #d8d0d0;
+}
+
+.section-box {
+    width: 80%;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+#about {
+    background-color: #e2af77;
+}
+
+#education {
+    background-color: #77c5c5;
+}
+
+#hobbies {
+    background-color: #b86e93;
+}
+
+hr {
+    border: none;
+    height: 4px;
+    background-color: #555;
+    width: 60%;
+    margin: 20px auto;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.section-box p {
+    color: rgb(21, 21, 22);
+}

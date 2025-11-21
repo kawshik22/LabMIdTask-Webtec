@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.sidebar, .main-content, .ads {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    border: 1px solid black;
+    margin-right: 5px;
+}
+
+.sidebar {
+    width: 20%;
+    background: #40598d;
+}
+
+.main-content {
+    width: 60%;
+    background: #882c2c;
+}
+
+.ads {
+    width: 20%;
+    background: #bd7529;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #f5efef;
+    margin: 10px 0;
+}
